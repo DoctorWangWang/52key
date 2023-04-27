@@ -86,29 +86,44 @@ modcp: mod_copy {
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <2 36>;
             bindings = <&kp TAB>;
         };
              combo_rgui {
             timeout-ms = <50>;
-            key-positions = <2 3>;
+            key-positions = <3 36>;
             bindings = <&kp CAPS>;
         };
         
          combo_LSHFT {
             timeout-ms = <50>;
-            key-positions = <14 15>;
+            key-positions = <4 36>;
             bindings = <&kp  LSHFT>;
         };
+             combo_1 {
+            timeout-ms = <50>;
+            key-positions = <14 36>;
+            bindings = <&kp N1>;
+        };
         
+         combo_2 {
+            timeout-ms = <50>;
+            key-positions = <15 36>;
+            bindings = <&kp N2 >;
+        };
+         combo_3 {
+            timeout-ms = <50>;
+            key-positions = <16 36>;
+            bindings = <&kp N3>;
+        };
             combo_LGUI {
             timeout-ms = <50>;
-            key-positions = <26 27>;
+            key-positions = <25 36>;
             bindings = <&kp LGUI>;
         };
               combo_GUI {
             timeout-ms = <50>;
-            key-positions = <28 29>;
+            key-positions = <26 36>;
             bindings = <&tog 1>;
         };
         
